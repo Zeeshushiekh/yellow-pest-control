@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth anchor offset for sticky header */
+:target {
+  scroll-margin-top: 90px;
+}
+
+/* Subtle selection */
+::selection {
+  background: rgba(245, 158, 11, 0.25);
+}
+
